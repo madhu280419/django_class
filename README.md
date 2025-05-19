@@ -2,15 +2,20 @@
 
 1. created a new repository in github .
 2. then clone it .
+    git clone
 3. created a file name called env.
-4. after that run the activate file in scripts {env\scripts\activate}.
-5. install the Django {pip3 install Django}.
-6. then creared a project name called Health Django-admin startproject {projectname}Health.
-7. created a app name called patients (python manage.py startapp patients).
-8. update the functionality in views.py
-9. create a file in app{patients}, name is urls.py and write  path.
-10. when we write any function in views.py we have to mention in urls.py
-11. make sure we have to mention patient urls in Health urls to call them.
+4. after that run the activate file in scripts
+    env\scripts\activate
+5. install the Django
+     pip3 install Django
+6. then creared a project name called Health Django-admin startproject.
+7.      django-admin startproject [project_name]
+9. created a app name called patients
+      (python manage.py startapp patients).
+11. update the functionality in views.py
+12. create a file in app{patients}, name is urls.py and write  path.
+13. when we write any function in views.py we have to mention in urls.py
+14. make sure we have to mention patient urls in Health urls to call them.
 11. patient url's , Health url's lo mention cheyyali 
 12. next created a folder in patients, folder name is templates
 13. create a file in templates and given the file name is  patients.html
